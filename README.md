@@ -4,3 +4,4 @@
 
 ### 1. Travel - https://martovski5.github.io/Projects/Travel/
 ### 2. Data Warehouse - https://martovski5.github.io/Projects/Data%20Warehouse/
+### 3. CV - https://martovski5.github.io/Projects/CV/
