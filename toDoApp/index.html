@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>toDoApp</title>
+  </head>
+  <body>
+    <h1>toDoApp</h1>
+    <div class="container">
+      <ul id="list-group">
+        <li class="list-group-item">
+          Задача №1<button
+            name="del"
+            type="button"
+            class="btn-close"
+            aria-label="Close"
+            onclick="delItem()"
+          ></button>
+        </li>
+        <li class="list-group-item">
+          Задача №2<button
+            name="del"
+            type="button"
+            class="btn-close"
+            aria-label="Close"
+            onclick="delItem()"
+          ></button>
+        </li>
+        <li class="list-group-item">
+          Задача №3<button
+            name="del"
+            type="button"
+            class="btn-close"
+            aria-label="Close"
+            onclick="delItem()"
+          ></button>
+        </li>
+      </ul>
+      <p class="new_list"><b>Введите новую задачу:</b><br /></p>
+      <input
+        class="form-control"
+        type="text"
+        required
+        placeholder="Введите задачу"
+        aria-label="default input example"
+      />
+      <input
+        class="btn btn-primary"
+        type="button"
+        value="Добавить"
+        onclick="pushRules()"
+      />
+
+      <script src="main2.js"></script>
+    </div>
+  </body>
+</html>
